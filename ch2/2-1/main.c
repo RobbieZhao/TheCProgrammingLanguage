@@ -53,12 +53,6 @@ void print_ranges_of_integers()
   printf("\t\tRange of unsigned long: %lu to %lu\n", 0, (unsigned long)(~0));
 }
 
-union ufloat
-{
-  float f;
-  unsigned u;
-};
-
 void print_ranges_of_floats()
 {
   printf("Ranges of floats:\n");
